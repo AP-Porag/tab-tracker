@@ -85,12 +85,12 @@ export default {
   name: "Header",
   data: () => ({
     drawer: false,
-    //user: '',
-    user: {
-      avatar: 'https://cdn.vuetifyjs.com/images/john.jpg',
-      name: 'John Doe',
-      email: 'john.doe@doe.com',
-    },
+    user: '',
+    // user: {
+    //   avatar: 'https://cdn.vuetifyjs.com/images/john.jpg',
+    //   name: 'John Doe',
+    //   email: 'john.doe@doe.com',
+    // },
   }),
 }
 </script>
